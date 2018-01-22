@@ -4,13 +4,6 @@ import { AddRoomPage } from '../add-room/add-room';
 import { HomePage } from '../home/home';
 import * as firebase from 'firebase';
 
-/**
- * Generated class for the RoomPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-
 @IonicPage()
 @Component({
   selector: 'page-room',

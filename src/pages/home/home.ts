@@ -43,6 +43,10 @@ export class HomePage {
   }
 
   sendMessage() {
+    if (!this.data.message) {
+      console.log('no message to send');
+      return;
+    }
     let newData = firebase.database().ref('chatrooms/' + this.roomkey + '/chats').push();
     newData.set({
       type: this.data.type,
