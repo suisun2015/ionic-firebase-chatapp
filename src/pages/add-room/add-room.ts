@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import * as firebase from 'Firebase';
+import * as firebase from 'firebase';
 
 /**
  * Generated class for the AddRoomPage page.
@@ -15,9 +15,7 @@ import * as firebase from 'Firebase';
   templateUrl: 'add-room.html',
 })
 export class AddRoomPage {
-  data = {
-    roomname: ''
-  };
+  data = { roomname: '' };
   ref = firebase.database().ref('chatrooms/');
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {

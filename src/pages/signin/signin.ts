@@ -15,9 +15,7 @@ import { RoomPage } from '../room/room';
   templateUrl: 'signin.html',
 })
 export class SigninPage {
-  data = {
-    nickname: ''
-  };
+  data = { nickname: '' };
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
