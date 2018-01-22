@@ -27,4 +27,6 @@ ionic serve --lab
 
 And you'll see the app running via [localhost:8100/ionic-lab](http://localhost:8100/ionic-lab) in your browser.
 
-Happy coding from Suisun Rob!
+Happy coding!
+
+Suisun Rob
